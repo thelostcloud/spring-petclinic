@@ -1,5 +1,8 @@
 name: Deploy and Test Cluster
 
+permissions:
+  contents: read
+
 on:
   push:
     branches: [main]
