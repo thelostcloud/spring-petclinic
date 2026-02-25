@@ -35,6 +35,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 class VetController {
 
+	private String hello = "Hello";
+
 	private final VetRepository vetRepository;
 
 	public VetController(VetRepository vetRepository) {
