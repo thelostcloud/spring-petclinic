@@ -33,7 +33,7 @@ jobs:
       - name: Maven Compile
         run: mvn compile
       - name: SonarQubeScan
-        uses: SonarSource/sonarqube-scan-action@v7
+        uses: SonarSource/sonarqube-scan-action@dcc5211de53084482f1c6779dda263459f5274f6
         env: 
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           
