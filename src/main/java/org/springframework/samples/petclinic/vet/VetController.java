@@ -37,6 +37,8 @@ class VetController {
 
 	private String hello = "Hello";
 
+	private String helloAgain = "Hello";
+
 	private final VetRepository vetRepository;
 
 	public VetController(VetRepository vetRepository) {
